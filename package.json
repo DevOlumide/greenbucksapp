@@ -1,0 +1,30 @@
+{
+  "name": "greenbucks",
+  "version": "1.0.0",
+  "description": "\"Peer to peer payment app\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "mobile-app-payment",
+    "payment-app",
+    "peer-to-peer-payment"
+  ],
+  "author": "DevOlumide (Ogunmola Samuel)",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.4",
+    "nodemon": "^2.0.12",
+    "sendotp": "^1.2.9",
+    "springedge": "^1.0.6"
+  }
+}

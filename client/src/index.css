@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family:"Roboto", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.85rem !important;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bg-custom{
+  background-color: #000000 !important;
+}
